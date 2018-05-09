@@ -1,6 +1,6 @@
 {
     "name": "lynx-light-bootstrap-admin-theme",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description":
         "Light Bootstrap administration theme, defined as module, for the Lynx framework",
     "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "scripts": {
         "build": "gulp build",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublish": "npm run build",
+        "prepublishOnly": "npm run build",
         "postinstall": "mv dist/* ."
     },
     "repository": {
@@ -26,7 +26,7 @@
     "homepage":
         "https://github.com/jellyfishsolutions/lynx-light-bootstrap-admin-theme#readme",
     "dependencies": {
-        "lynx-framework": "^0.1.8"
+        "lynx-framework": "^0.2.2"
     },
     "devDependencies": {
         "gulp": "^3.9.1",
